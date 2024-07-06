@@ -13,8 +13,8 @@ provider "azurerm" {
   features {}
 }
 
-# Create Resource Group 
+# Create Resource [resource - Block Type; "azurerm_resource_group" "my_demo_rg1" - Block Labels] Group 
 resource "azurerm_resource_group" "my_demo_rg1" {
-  location = "eastus"
-  name = "my-demo-rg1"  
+  location = "eastus"   #Argument
+  name = "my-demo-rg1"  #Argument 
 }
